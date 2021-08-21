@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen3PMO2.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Lista" Priority="0" Order="Primary" Clicked="lista_Clicked">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <StackLayout FlexLayout.AlignSelf="Center">
+        <Frame Margin="10" Padding="24" CornerRadius="10">
+            <Label Text="Registrar Empleado nuevo" HorizontalTextAlignment="Center" TextColor="black" FontSize="30"/>
+        </Frame>
+        <ScrollView BackgroundColor="White">
+            <Frame Margin="10">
+                <StackLayout Padding="40,40,40,40">
+                    <Label  FontSize="Subtitle" Text="Pago"></Label>
+                    <Entry Text="{Binding Pago,Mode=TwoWay}"  x:Name="pago"></Entry>
+                    <Label  FontSize="Subtitle" Text="Descripcion"></Label>
+                    <Entry Text="{Binding Descripcion,Mode=TwoWay}"  x:Name="descripcion"></Entry>
+                    <Label  FontSize="Subtitle" Text="Monto"></Label>
+                    <Entry Text="{Binding Monto,Mode=TwoWay}" Keyboard="Numeric"  x:Name="monto"></Entry>
+                    <Label  FontSize="Subtitle" Text="Fecha"></Label>
+                    <Entry Text="{Binding Fecha,Mode=TwoWay}" Keyboard="Email" x:Name="fecha"></Entry>
+                    <Button Margin="10" FontFamily="Ubuntu" x:Name="btnSave" Command="{Binding GuardarCommand,Mode=TwoWay}"
+                        Text="Guardar "
+                        BackgroundColor="Black"
+                        TextColor="White" CornerRadius="10" 
+                        FontSize="23" Padding="30,10,30,10"/>
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
+

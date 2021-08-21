@@ -1,0 +1,35 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"     
+             x:Class="Examen3PMO2.Datos">
+
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Frame Margin="10">
+                <StackLayout>
+                    <Entry IsVisible="false"  Text="{Binding Id}"/>
+                    <StackLayout Margin="10"  Orientation="Vertical">
+                        <Label Grid.Row="0" Grid.Column="0" Text="Pago"/>
+                        <Entry Grid.Row="0" Grid.Column="1" Text="{Binding Pago}"/>
+                    </StackLayout>
+                    <StackLayout Margin="10"  Orientation="Vertical">
+                        <Label Grid.Row="1" Grid.Column="0" Text="Descrpcion"/>
+                        <Entry Grid.Row="1" Grid.Column="1" Text="{Binding Descripcion}"/>
+                    </StackLayout>
+                    <StackLayout Margin="10"  Orientation="Vertical">
+                        <Label Grid.Row="2" Grid.Column="0" Text="Monto"/>
+                        <Entry Grid.Row="2" Grid.Column="1" Text="{Binding Monto}"/>
+                    </StackLayout>
+                    <StackLayout Margin="10"  Orientation="Vertical">
+                        <Label Grid.Row="3" Grid.Column="0" Text="Fecha"/>
+                        <Entry Grid.Row="3" Keyboard="Numeric" Grid.Column="1" Text="{Binding Fecha}"/>
+                    </StackLayout>
+                    <StackLayout Margin="10"  Orientation="Horizontal">
+                        <Button Text="Limpiar" Command="{Binding ClearCommand }"></Button>
+                        <Button Text="Delete" Command="{Binding DeleteCommand }"></Button>
+                        <Button Text="Update" Command="{Binding UpdateCommand }"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

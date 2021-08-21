@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Datos.xaml.g.cs
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Home.xaml.g.cs
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Examen3PMO2.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Examen3PMO2.AssemblyInfo.cs
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Examen3PMO2.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Examen3PMO2.dll
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\ref\Examen3PMO2.dll
+C:\Users\PC\source\repos\Examen3PMO2\Examen3PMO2\Examen3PMO2\obj\Debug\netstandard2.0\Examen3PMO2.pdb
